@@ -355,7 +355,7 @@ padding-bottom: 90px;
 #mainslider, #team_slider {padding: 0;}
 #abovecontent {padding-top: 20px; padding-bottom: 20px;}
 #partners {padding-top: 60px; padding-bottom: 60px;}
-#copyright {padding-top: 52px; padding-bottom: 52px;}
+#copyright {padding-top: 25px; padding-bottom: 25px;}
 .darkgrey_section + .darkgrey_section, .light_section + .light_section, .dark_section + .dark_section, .grey_section + .grey_section{
 padding-top: 5px;
 }
@@ -494,7 +494,7 @@ iframe{border:none; max-width: 100%;}
 .vertical-margin-40 {margin:40px 0 !important;}
 .vertical-margin-60 {margin:60px 0 !important;}
 .negative-margin-60 {margin-top: -60px !important;}
-.block-header {margin-top: 20px; margin-bottom: 60px; font-size: 60px; position: relative; font-weight: 700;}
+.block-header {margin-top: 20px; margin-bottom: 35px; font-size: 48px; position: relative; font-weight: 700; text-align: center; color:#333 !important}
 
 .text-center .block-header:before, .text-center.block-header:before {
 left: 50%;
@@ -994,7 +994,7 @@ background: #31353d;
 }
 #title_about .title {  
     color: #3a3f4d;
-    font: 26px/25px 'Roboto';   
+    font: 23px/25px 'Roboto';   
     padding: 30px 0 0;
     text-transform: uppercase;  
 }
@@ -1004,7 +1004,7 @@ background: #31353d;
     font-size: 15px;
     line-height:25px;
     margin-bottom: 30px;
-    color: #bab9b9;
+    color: #333;
 }
 .banner_description {
     padding: 0px 30px 40px;
@@ -4013,7 +4013,7 @@ html[xmlns] .slides {display: block;}
 
 /*totop*/
 #toTop {
-background: #8dbf41;
+background: #31353d;
 bottom: 14px;
 display: none;
 height: 50px;
@@ -4046,7 +4046,7 @@ transition: all 0.4s linear;
 
 
 #toTopHover, #toTop:hover {
-background: #31353d;
+background: #8dbf41;
 -webkit-transition: all 0.1s linear;
 -moz-transition: all 0.1s linear;
 -o-transition: all 0.1s linear;
@@ -5042,3 +5042,10 @@ td{
     color: #ffffff;
 }
 
+.table-bordered>thead>tr>th, .table-bordered>tbody>tr>th, .table-bordered>tfoot>tr>th, .table-bordered>thead>tr>td, .table-bordered>tbody>tr>td, .table-bordered>tfoot>tr>td{
+    border-color: #ffffff !important;
+}
+
+.img-icons{
+    max-width: 60%;
+}
