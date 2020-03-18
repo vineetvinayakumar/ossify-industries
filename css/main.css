@@ -1233,10 +1233,12 @@ display: none;
 
 #mainslider .slide_description_wrapper {
 position: absolute;
-top:10%;
+top:0%;
 bottom: 0;
-left: 12%;
+/*left: 12%;*/
 height: 100%;
+text-align: center;
+width: 100%;
 }
 #mainslider .slide_description_wrapper:before, #mainslider .slide_description {
 display: inline-block; 
@@ -3955,7 +3957,7 @@ letter-spacing: -2px;
 *********************************/
 .flexslider {margin: 0; padding: 0;}
 .flexslider .slides > li {display: none; -webkit-backface-visibility: hidden;} /* Hide the slides before the JS is loaded. Avoids image jumping */
-.flexslider .slides img {width: 100%; display: block;}
+.flexslider .slides img {display: block;text-align: center}
 .flex-pauseplay span {text-transform: capitalize;}
 
 /* Clearfix for the .slides element */
@@ -5050,4 +5052,11 @@ td{
 
 .img-icons{
     max-width: 60%;
+}
+
+.company-logo{
+    width: 20%;
+    display: block;
+      margin-left: auto;
+      margin-right: auto;
 }
